@@ -30,7 +30,7 @@ a{
        }
 
 .header{
-      height:160px;
+      height:auto;
       background-color:black;
       border:solid;
       }
