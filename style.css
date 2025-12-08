@@ -73,6 +73,9 @@ a{
 #hover:hover{
              color:#05e4ee
              }
+.header .nav_bar{
+                margin:5px
+}
 .header .nav_bar:hover{
                color:cyan
                }
