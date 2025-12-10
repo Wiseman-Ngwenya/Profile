@@ -12,14 +12,14 @@
                 <img src = "pictures/photo1.jpg" alt = "Wiseman's profile photo" id = "profile">
                 WISEMAN SONKHE NGWENYA            
             </h1>
-            <a href = "index.html" class = "nav_bar" id = "current_page"><i>Home</i></a>
-            <a href = "qualifications.html" class = "nav_bar"><i>Qualifications</i></a> 
-            <a href = "projects.html" class = "nav_bar"><i>Projects</i></a>
-            <a href = "contact.html" class = "nav_bar"><i>Contact</i></a> 
-            <a href = "about.html" class = "nav_bar"><i>About</i></a>
+            <a href = "#home" class = "nav_bar"><i>Home</i></a>
+            <a href = "#qualifications" class = "nav_bar"><i>Qualifications</i></a> 
+            <a href = "#projects" class = "nav_bar"><i>Projects</i></a>
+            <a href = "#contact" class = "nav_bar"><i>Contact</i></a> 
+            <a href = "#about" class = "nav_bar"><i>About</i></a>
         </header>
         <main>
-            <section class = "container">
+            <section class = "container" id = "home">
                 <h1 class = "center">
                     Introduction
                 </h1>
@@ -50,7 +50,58 @@
                     </ul>
                 </p>
             </section>
-        </main>
+            
+        <section class = "container" id = "qualifications">
+            <p>In the following writing I have summarized almost all the qualification I have successfully attained.</p>
+        </section>
+        <section class = "container">
+            <div class = "box" id = "float">
+                <img src = "pictures/UNESWA_logo.png" id = "image">    
+                <div class = "description">Bachelor of education</div>
+            </div>
+            <p style = "color:yellow">
+                This is a bachelor of education in secondary science degree obtained from the University of Eswatini. 
+                It is where I was first introduced into programing (python language) in a computional physics course.
+            </p>
+        </section>
+        <section class = "container">
+            <p>
+                Other qualification I am currently holding are through online courses. 
+                Currently I am holding  close to 10 certificates for completing various online courses.    
+            </p>
+        </section>
+
+        <section class = "container" id = "projects">
+            <div class = "box" id = "boxlink">
+                <br>
+                <a href = "https://afro-bank.netlify.app" TARGET = "blank" id = "hover">
+                    <img src = "pictures/afro.jpg" id = "image">
+                    <h3 id = "hover">
+                            <div class = "description">AFRO BANK</div>
+                    </h3>
+                </a>
+            </div>
+        </section>        
+
+        <section class = "container" id = "about">
+        <p>
+            This is a website created by Wiseman Ngwenya. It's purpose is to showcase my skills as a fullstack developer. 
+            It has links to some of the projects I have created, some were just for learning and some were created for clients. 
+            For easy booking you can contact me by <a href = "contact.html" class = "link">clicking here</a>.
+        </p>
+        </section>
+
+        <section class = "container" id = "contact">
+            <p>
+                Send me an email to <a href = "mailto: wisemansonke10@gmail.com" class = "link"> wisemansonkhe10@gmail.com</a> 
+            </p>
+            <p>Let us meet on
+                <a href = "https://github.com" class = "link"> github</a> <!--link to correct github account will be addded later-->
+            </p>
+        </section>        
+        
+        </main>            
+
         <footer ><!--/* class = "container" -->
             <hr>
              <p>&#169; All Rights reserved 2025 Wiseman Ngwenya</p>
