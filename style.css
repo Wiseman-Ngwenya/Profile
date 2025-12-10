@@ -1,18 +1,29 @@
 body{
      background-color: #00022f;
-     margin: 0px
+     margin: 0px;
+     display:flex;
+     flex-direction: column;
+     height:100vh;
+     
      }
 footer{
        background-color: black;
        border:solid;
+       flex-grow:1
        }
 p,h1,h3 {
-   color: white
+   color: white;
+   font-size:1.6em
    }
 a{
   color: white;
   text-decoration: none;
   }
+header i {
+          font-size:2.5em;
+          font-style:normal;
+          font-family:"Arial";
+}
 #image {
         height: auto
         }
@@ -39,7 +50,8 @@ a{
         }
 
 .link{
-      color: #05e4ee
+      color: #05e4ee;
+      font-size:1.3em
       }
 .text{
       color: #05e4ee
